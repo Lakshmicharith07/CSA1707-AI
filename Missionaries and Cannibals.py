@@ -1,14 +1,12 @@
-#Python program to illustrate Missionaries & cannibals Problem 
-#This code is contributed by Sunit Mal 
 print("\n") 
 print("\tGame Start\nNow the task is to move all of them to right side of the river") 
 print("rules:\n1. The boat can carry at most two people\n2. If cannibals num greater than missionaries then the cannibals would eat the missionaries\n3. The boat cannot cross the river by itself with no people on board") 
-lM = 3		 #lM = Left side Missionaries number 
-lC = 3		 #lC = Laft side Cannibals number 
-rM=0		 #rM = Right side Missionaries number 
-rC=0		 #rC = Right side cannibals number 
-userM = 0	 #userM = User input for number of missionaries for right to left side travel 
-userC = 0	 #userC = User input for number of cannibals for right to left travel 
+lM = 3		 
+lC = 3		 
+rM=0		 
+rC=0		 
+userM = 0	  
+userC = 0	 
 k = 0
 print("\nM M M C C C |	 --- | \n") 
 try: 
