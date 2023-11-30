@@ -1,37 +1,9 @@
-
-# Python3 program for the above approach
-
-# Function to check if the
-# assignment of digits to
-# characters is possible
 def isSolvable(words, result):
-	# Stores the value
-	# assigned to alphabets
 	mp = [-1]*(26)
-	
-	# Stores if a number
-	# is assigned to any
-	# character or not
 	used = [0]*(10)
-
-	# Stores the sum of position
-	# value of a character
-	# in every string
 	Hash = [0]*(26)
-
-	# Stores if a character
-	# is at index 0 of any
-	# string
 	CharAtfront = [0]*(26)
-
-	# Stores the string formed
-	# by concatenating every
-	# occurred character only
-	# once
 	uniq = ""
-
-	# Iterator over the array,
-	# words
 	for word in range(len(words)):
 		# Iterate over the string,
 		# word
